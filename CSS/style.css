@@ -10,3 +10,104 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.header .container{
+  width: 70%;
+  height: 200px;
+  margin: auto;
+  padding-top: 55px;
+  position: relative;
+}
+.container .left-side{
+  width: 30%;
+  float: left;
+}
+.container .right-side{
+  width: 60%;
+  float: left;
+}
+.right-side .content{
+  overflow: hidden;
+}
+.content ul{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  
+}
+.content ul li{
+  list-style-type: none;
+  margin-left: 35px;
+}
+.content li a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fa4046;
+}
+.content li a:hover{
+  color: #00BA94;
+}
+
+/* section */
+
+.section .container2{
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.container2 .text-side{
+  width: 50%;
+  float: left;
+}
+.myself h2{
+  color: rgba(0, 0, 0, 0.815)
+}
+.myself h2 span{
+  color: #fa4046;
+  font-size: 2.1rem;
+}
+.professional{
+  color: rgba(0, 0, 0, 0.815);
+  margin-top: 25px;
+  font-size: 1.4rem;
+}
+.there p{
+  color: dimgray;
+  margin-top:65px;
+}
+.download{
+  margin-top: 50px;
+}
+.btn1{
+  padding: 10px 35px;
+  background: #F5F5F5;
+}
+.btn1 a{
+  text-decoration: none;
+  color: #fa4046;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.btn2{
+  padding: 10px 18px;
+  background-color: rgba(0, 0, 0, 0.815);
+  margin-left: 5px;
+}
+.btn2 a{
+  text-decoration: none;
+  color: #fa4046;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.container2 .image-side{
+  width: 50%;
+  float: left;
+}
+.image-side .monkey{
+  width: 100%;
+  height: 670px;
+  background-image: url("../images/monkey.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
