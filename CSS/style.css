@@ -46,7 +46,7 @@ body {
   color: #fa4046;
 }
 .content li a:hover{
-  color: #00BA94;
+  color: #191970;
 }
 
 /* section */
@@ -59,6 +59,7 @@ body {
 .container2 .text-side{
   width: 50%;
   float: left;
+  margin-top: 111px;
 }
 .myself h2{
   color: rgba(0, 0, 0, 0.815)
@@ -91,7 +92,7 @@ body {
 }
 .btn2{
   padding: 10px 18px;
-  background-color: rgba(0, 0, 0, 0.815);
+  background-color: #FFD700;
   margin-left: 5px;
 }
 .btn2 a{
